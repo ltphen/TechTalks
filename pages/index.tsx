@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import Lottie from "react-lottie";
 import SplitType from "split-type";
 import loader from "../public/loader.json";
-import logoLight from "../public/logo-light.png";
+import logoDark from "../public/logo-dark.png";
 
 const Index = () => {
   const animContainerRef = useRef(null);
@@ -79,7 +79,7 @@ const Index = () => {
       <header className="h-20 px-20">
         <div className={"font-medium text-2xl absolute fixed left-4 top-4"}>
           <Link href="/">
-            <Image width={40} height={40} src={logoLight} alt="logo" />
+            <Image width={40} height={40} src={logoDark} alt="logo" />
           </Link>
         </div>
       </header>
@@ -92,22 +92,27 @@ const Index = () => {
               className="flex flex-col  w-full sm:w-11/12  lg:w-5/12"
             >
               <div className="font-bold text-5xl mt-5">
-                Lorem ipsum <br />
-                dolor sit amet
+              Inspiring the tech <br />
+              founders of tomorrow 
               </div>
-              <div className="font-bold w-full lg:w-9/12 mt-10 lg:mt-32">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                corporis dolorem eos error ex explicabo facilis, fugiat ipsum,
-                neque, nobis obcaecati odio porro quasi quisquam rem ullam unde
-                voluptas voluptates?
+              <div className="font-bold text-xl text-black-800 w-full lg:w-9/12 mt-10 lg:mt-32">
+              if join == True:<br/>
+              &gt;&gt;&gt;&gt; print(<span className="text-red-500">"Amazing talks every Sunday"</span>)<br/>
+              &gt;&gt;&gt;&gt;  print(<span className="text-blue-500">"Network with other founders"</span>)<br/>
+              &gt;&gt;&gt;&gt;  print(<span className="text-pink-500">"Network with Tech enthusiast"</span>)
               </div>
               <ul className="font-bold flex w-9/12 mt-8 mb-12 lg:mb-0 ">
-                <li className="h-8 mr-10 flex justify-center items-center border-b-2 cursor-pointer">
-                  Youtube
-                </li>
-                <li className="h-8 flex justify-center items-center border-b-2 cursor-pointer">
-                  Whatsapp
-                </li>
+                <Link href={"https://youtube.com"}>
+                  <li className="h-8 mr-10 flex justify-center items-center border-b-2 hover:border-red-700 hover:text-red-500 cursor-pointer">
+                    Youtube
+                  </li>
+                </Link>
+                <Link href={"https://discord.gg/97HAgvjcCx"}>
+                  <li className="h-8 flex justify-center items-center border-b-2 cursor-pointer hover:border-blue-700 hover:text-blue-500">
+                    Discord
+                  </li>
+                </Link>
+                
               </ul>
             </div>
 
@@ -115,7 +120,7 @@ const Index = () => {
               <video
                 ref={videoRef}
                 className="absolute -top-28 pt-14 md:pt-0"
-                src="https://cdn.dribbble.com/users/566524/screenshots/18110002/media/aaa392fea894dd7a83c235a662284b33.mp4"
+                src="/TechTalks_Speed.mp4"
                 muted
                 autoPlay
                 loop
@@ -132,7 +137,7 @@ const Index = () => {
 
         <div
           ref={animContainerRef}
-          className="absolute bottom-0 left-0 bg-black w-screen h-screen flex flex-col items-center justify-center z-50 overflow-hidden"
+          className="absolute bottom-0 left-0 bg-blue-600 w-screen h-screen flex flex-col items-center justify-center z-50 overflow-hidden"
         >
           <div
             className="flex flex-col justify-center items-center"
@@ -140,7 +145,7 @@ const Index = () => {
           >
             <div className="relative top-20">
               <Link href="/">
-                <Image width={40} height={40} src={logoLight} alt="logo" />
+                <Image width={40} height={40} src={logoDark} alt="logo" />
               </Link>
             </div>
 
