@@ -97,9 +97,9 @@ const Index = () => {
               </div>
               <div className="font-bold text-xl text-black-800 w-full lg:w-9/12 mt-10 lg:mt-32">
               if join == True:<br/>
-              &gt;&gt;&gt;&gt; print(<span className="text-red-500">"Amazing talks every Sunday"</span>)<br/>
-              &gt;&gt;&gt;&gt;  print(<span className="text-blue-500">"Network with other founders"</span>)<br/>
-              &gt;&gt;&gt;&gt;  print(<span className="text-pink-500">"Network with Tech enthusiast"</span>)
+              &gt;&gt;&gt;&gt; print(<span className="text-red-500">&quot;Amazing talks every Sunday&quot;</span>)<br/>
+              &gt;&gt;&gt;&gt;  print(<span className="text-blue-500">&quot;Network with other founders&quot;</span>)<br/>
+              &gt;&gt;&gt;&gt;  print(<span className="text-pink-500">&quot;Network with Tech enthusiast&quot;</span>)
               </div>
               <ul className="font-bold flex w-9/12 mt-8 mb-12 lg:mb-0 ">
                 <Link href={"https://youtube.com"}>
