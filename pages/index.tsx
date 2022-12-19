@@ -95,7 +95,7 @@ const Index = () => {
               Inspiring the tech <br />
               founders of tomorrow 
               </div>
-              <div className="font-bold text-xl text-black-800 w-full lg:w-9/12 mt-10 lg:mt-32">
+              <div className="font-bold text-black-800 w-full lg:w-9/12 mt-10 lg:mt-32">
               if join == True:<br/>
               &gt;&gt;&gt;&gt; print(<span className="text-red-500">&quot;Amazing talks every Sunday&quot;</span>)<br/>
               &gt;&gt;&gt;&gt;  print(<span className="text-blue-500">&quot;Network with other founders&quot;</span>)<br/>
