@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Mahee:wght@200;300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +7,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Mukta", sans-serif;
+  font-family: "Inter", sans-serif;
   background: #fff;
   color: black
 }
