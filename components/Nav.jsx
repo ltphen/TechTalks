@@ -33,7 +33,7 @@ export const Nav = () => {
                         <a href="#" title="" class="text-base text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> About </a>
                     </div>
                     <div class="hidden md:flex">
-                        <a href="#" title="" class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-green-400 transition-all duration-200 bg-blue-900 border border-transparent rounded hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-extrabold" role="button">Join The Community</a>
+                        <a href="#" title="" class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-green-500 transition-all duration-200 bg-blue-900 border border-transparent rounded hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-extrabold" role="button">Join The Community</a>
                     </div>
                 </div>
                 <nav class="hidden">
@@ -42,7 +42,7 @@ export const Nav = () => {
                             <a href="#" title="" class="flex items-center p-3 -m-3 text-base text-gray-900 transition-all duration-200 rounded hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Blog </a>
                             <a href="#" title="" class="flex items-center p-3 -m-3 text-base text-gray-900 transition-all duration-200 rounded hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> Videos </a>
                             <a href="#" title="" class="flex items-center p-3 -m-3 text-base text-gray-900 transition-all duration-200 rounded hover:bg-gray-50 focus:outline-none font-pj focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"> About </a>
-                            <a href="#" title="" class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-green-400 transition-all duration-200 bg-blue-900 border border-transparent rounded hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-extrabold" role="button">Join The Community</a>
+                            <a href="#" title="" class="inline-flex items-center justify-center px-6 py-3 text-base font-bold leading-7 text-green-500 transition-all duration-200 bg-blue-900 border border-transparent rounded hover:bg-gray-600 font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 font-extrabold" role="button">Join The Community</a>
                         </div>
                     </div>
                 </nav>

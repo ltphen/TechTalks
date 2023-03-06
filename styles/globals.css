@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Mahee:wght@200;300;400;500;600;700;800&family=Mukta:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Inconsolata:wght@200;300;400;500;600;700;800&family=Inconsolata:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,6 +21,21 @@ a {
   box-sizing: border-box;
 }
 
-.responsive-test{
-  @apply border sm:border-yellow-400 md:border-blue-400 lg:border-green-400 xl:border-red-400
+.font-second{
+  font-family: Inconsolata;
 }
+.text-blue-900{
+  color: #022658;
+} 
+
+.bg-blue-900{
+  background-color: #022658;
+} 
+
+.bg-green-500{
+  background-color: #03FC85;
+} 
+
+.text-green-500{
+  color: #03FC85;
+} 
